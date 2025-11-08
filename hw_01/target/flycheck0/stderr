@@ -1,58 +1,12 @@
-   0.088567000s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: fingerprint error for hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01)/Check { test: false }/TargetInner { name: "hw_1", doc: true, ..: with_path("C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", Edition2024) }
-   0.088633100s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\tnnic\Desktop\rust\otus_rust\hw_01\target\debug\.fingerprint\hw_1-d4aa430028bddc8e\bin-hw_1`
-
-Caused by:
-    Не удается найти указанный файл. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.105192000s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: fingerprint error for hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01)/Check { test: true }/TargetInner { name: "hw_1", doc: true, ..: with_path("C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", Edition2024) }
-   0.105234300s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\tnnic\Desktop\rust\otus_rust\hw_01\target\debug\.fingerprint\hw_1-60a1418fb6b77ace\test-bin-hw_1`
-
-Caused by:
-    Не удается найти указанный файл. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.019867600s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs"
+   0.019904800s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\target\\debug\\.fingerprint\\hw_1-d4aa430028bddc8e\\dep-bin-hw_1"
+   0.019913900s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13407080507, nanos: 359317400 } < FileTime { seconds: 13407080507, nanos: 812321000 }
+   0.020130800s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: fingerprint dirty for hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01)/Check { test: false }/TargetInner { name: "hw_1", doc: true, ..: with_path("C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", Edition2024) }
+   0.020169500s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\target\\debug\\.fingerprint\\hw_1-d4aa430028bddc8e\\dep-bin-hw_1", reference_mtime: FileTime { seconds: 13407080507, nanos: 359317400 }, stale: "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", stale_mtime: FileTime { seconds: 13407080507, nanos: 812321000 } }))
+   0.021219500s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs"
+   0.021237800s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\target\\debug\\.fingerprint\\hw_1-60a1418fb6b77ace\\dep-test-bin-hw_1"
+   0.021245400s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13407080507, nanos: 359317400 } < FileTime { seconds: 13407080507, nanos: 812321000 }
+   0.021412300s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint: fingerprint dirty for hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01)/Check { test: true }/TargetInner { name: "hw_1", doc: true, ..: with_path("C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", Edition2024) }
+   0.021435100s  INFO prepare_target{force=false package_id=hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01) target="hw_1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\target\\debug\\.fingerprint\\hw_1-60a1418fb6b77ace\\dep-test-bin-hw_1", reference_mtime: FileTime { seconds: 13407080507, nanos: 359317400 }, stale: "C:\\Users\\tnnic\\Desktop\\rust\\otus_rust\\hw_01\\src\\main.rs", stale_mtime: FileTime { seconds: 13407080507, nanos: 812321000 } }))
     Checking hw_1 v0.1.0 (C:\Users\tnnic\Desktop\rust\otus_rust\hw_01)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.54s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.09s
